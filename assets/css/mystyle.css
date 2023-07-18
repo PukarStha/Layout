@@ -1,0 +1,92 @@
+body{
+    background-color: lightblue;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.container{
+    background-color: white;
+    width: 1200px;
+    height: auto;
+    padding: 20px;
+    margin: 0px auto;
+}
+.header{
+    width: 1200px;
+    height: 100px;
+    background-color: red;
+}
+.menu{
+    width: 1200px;
+    height: 40px;
+    background-color: green;
+}
+.slide{
+    width: 1200px;
+    height: 500px;
+    background-color: aqua;
+}
+.content{
+    width: 880px;
+    height: auto;
+    background-color: brown;
+    margin-right: 20px;
+}
+.rightbar{
+    width: 300px;
+    height: auto;
+}
+
+.header h1{
+    line-height: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    text-shadow: 2px 2px gray;
+}
+
+.menu a {
+    background-color: green;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.menu a:hover{
+    background-color: orangered;
+    color: aquamarine;
+}
+
+.menu a.active{
+    background-color: orangered;
+}
+
+.slide h2{
+    color: azure;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+.slide p{
+    color: yellowgreen;
+    text-align: center;
+
+}
+.slide button.button{
+    padding: 20px;
+    
+}
+.slide{
+    text-align: center;
+}
